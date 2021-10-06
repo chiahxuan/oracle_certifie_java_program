@@ -43,8 +43,10 @@ public class TwoDArrayExercise {
         for (int row = 0; row < intArr.length; row++) {
             int sum=0;
             for (int col = 0; col < intArr[row].length; col++) {
-                intArr [row][col] = row * col;
+                System.out.print(intArr[row][col] + " " ) ;
+                sum += intArr[row][col];
             }
+            System.out.println( ": " + sum ) ;
         }
 
     }
